@@ -1,3 +1,27 @@
 **Day4**
+Topics Covered: Table spanning, absolute, relative paths, Image tag(src), alt tag, anchor(mailto, tel, wa.me).
 
-Tables(HTML)
+Tables(HTML): spanning(rowspan, colspan).
+**Absolute path and relative path:**
+Absolute path: direct link giving to anchor tag from online
+Relative path: giving directory path from local storage to anchor tag
+
+Absolute path:
+-----------------------------------------------------------------------------------------
+Advantages:
+Consistency: Can be obtained from anywhere
+External resources: img soucres or anything can be obtained from online(internet) and can be added in the code.
+
+Disadvantages:
+Dependency on domain: Depending on other websites as we are copying sources from online. It will make page loading slower too.
+Longer URL's: the sources we are copying from online with URL's will be with more lines of URL makes the code hard to read.  
+
+Relative path:
+------------------------------------------------------------------------------------------
+Advantages:
+Flexibility: Easier to move entire directories or projects without chaning paths.
+shoter URL's: More concise and easier to manage.
+
+Disadvantages:
+Context Dependent: Paths can break if directories structer changes.
+Less clear: Can be harder to understand where the resource is located, especially in deeply nested directories.
